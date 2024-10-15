@@ -249,8 +249,8 @@ ul li a:hover::after{
 }
 
 
-/* mobile view */
-@media(max-width:900px){
+/* large mobile view */
+@media(max-width:800px){
     ul{
         flex-direction: column;
     }
@@ -288,8 +288,4 @@ ul li a:hover::after{
     .card-balance{
         top: 0;
     }
-}
-
-.content, .col{
-
 }
